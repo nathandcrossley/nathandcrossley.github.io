@@ -1,7 +1,72 @@
-<html>
-
-<body>
-  <h1>Nathan</h1>
-  <p>Welcome to my website</p>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./Style Sheets/index.css">
+    <link rel="stylesheet" href="./Style Sheets/all.min.css">
+  </head>
+  <body>
+    <nav>
+      <h2 class="logo">Nathan Crossley</h2>
+      <ul class="navigation-items">
+        <li class="navigation-item"><a href="#about-me">About Me</a></li>
+        <li class="navigation-item"><a href="#projects">Projects</a></li>
+        <li class="navigation-item"><a href="#skills">Skills</a></li>
+        <li class="navigation-item"><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container">
+            <h2>About Me</h2>
+            <p>
+              Hi! I'm Nathan, I grew in Todmorden, England, but I now live in
+              Leeuwarden, Netherlands. I'm primarily a content marketeer, but
+              I've been learning Front End enginnering with Codecademy.
+            </p>
+            <p>
+              This is a personal portfolio project website, which I hope I
+              will be able to turn into a proper personal website one day. For
+              now, it is just a basic website to work on HTML and CSS. 
+            </p>
+            <p>
+              I am currently learning more advanced languages like JavaScript,
+              though I'm struggling a bit with the complexity of it all. I 
+              hope to get a hang of it soon, so I can do more web development.
+            </p>
+          </div>
+          <img src="https://media.licdn.com/dms/image/C4E03AQHhqVG5Lpv1mA/profile-displayphoto-shrink_800_800/0/1652433887508?e=1680739200&v=beta&t=h5eh0gruFsdoa1Sy6Aono2NngekWVFWrOZg_JDiS6sU" alt="A photo of Nathan Crossley" class="portrait">
+        </div>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Example project</h3>
+          </summary>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/220px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg" alt="Lovelace's diagram from note G, the first published computer
+          algorithm" class="project-image">
+          <p class="project-description">
+            This is an example of a project.
+          </p>
+        </details>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div id="skills-container">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-figma"></i>
+          <i class="fab fa-git"></i>
+          <i class="fab fa-github"></i>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Made with <span class="heart">♥</span> in Leeuwarden
+    </footer>
+  </body>
 <html>
